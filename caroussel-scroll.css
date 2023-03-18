@@ -1,0 +1,50 @@
+.scroll-container{
+    margin-top: 15px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 5px 70px 5px 20px;
+    background: transparent;
+    height: 100%;
+    border-radius:15px;
+    justify-content: center;
+    padding-top: 1.5%;
+}
+  
+.gridscroll{
+    display:flex;
+}
+  
+.gridscroll img {
+    margin-right:22px;
+    width: 245px;
+    height: 280px;
+}
+
+:root{
+    --main-color: #fa5353;
+    --dark-color: #1b182b;
+    --light-color: #322f40;
+    --text-color: hsl(0, 0%, 91%);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 12px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--dark-color);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #5b5671;
+    border-radius: 12px;    
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

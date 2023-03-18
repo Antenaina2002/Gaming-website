@@ -1,0 +1,27 @@
+.down-btn{
+    margin-top: 2.8%;
+}
+
+.new{
+    width: auto;
+    flex-direction: row;
+}
+
+.new-container{
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.games img {
+    margin-right:22px;
+    width: 245px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+.games{
+    margin-left: 0.7%;
+}
+

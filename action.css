@@ -1,0 +1,19 @@
+.mostplayed .title{
+    margin-top: 90px;
+    margin-left: 20px;
+    text-decoration: underline;
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+:root{
+    --main-color: #fa5353;
+    --dark-color: #1b182b;
+    --light-color: #322f40;
+    --text-color: hsl(0, 0%, 91%);
+}
+
+#new{
+    margin-top: 50px;
+}
+

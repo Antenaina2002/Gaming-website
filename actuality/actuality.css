@@ -1,0 +1,33 @@
+section h1{
+    margin-top: 95px;
+    font-size: 40px;
+    color: var(--main-color);
+}
+
+:root{
+    --main-color: #fa5353;
+    --dark-color: #1b182b;
+    --light-color: #322f40;
+    --text-color: hsl(0, 0%, 91%);
+}
+
+h5{
+    margin-top: 2%;
+    font-size: 17px;
+}
+
+h2{
+    margin-top: 35px;
+    color: var(--main-color);
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+p{
+    margin-top: 25px;
+}
